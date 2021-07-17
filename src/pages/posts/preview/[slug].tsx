@@ -56,12 +56,7 @@ export default function PostPreview({ post }: PostPreviewProps) {
 
 export const getStaticPaths = () => {
   return {
-    paths: [
-      // String variant:
-      //"/blog/first-post",
-      // Object variant:
-      //{ params: { slug } },
-    ],
+    paths: [],
     fallback: "blocking",
   };
 };
